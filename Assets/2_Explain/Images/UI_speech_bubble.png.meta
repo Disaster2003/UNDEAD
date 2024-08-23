@@ -122,22 +122,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "\u5439\u304D\u51FA\u3057_0"
+      name: UI_speech_bubble_0
       rect:
         serializedVersion: 2
-        x: 4115
-        y: 2108
-        width: 1633
-        height: 996
+        x: 4112
+        y: 2107
+        width: 1636
+        height: 998
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00c27cb1cd5710ab0800000000000000
-      internalID: -5043620519458952192
+      spriteID: 54a2e9abac6476a4aa4325fab88f5001
+      internalID: 814796074
       vertices: []
       indices: 
       edges: []
@@ -145,7 +145,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -153,7 +153,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "\u5439\u304D\u51FA\u3057_0": -5043620519458952192
+      UI_speech_bubble_0: 814796074
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

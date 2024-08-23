@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 19f6e4727b64d4f4f89f1bfbd7936d3d
+guid: 9309f7097f5d65a4ca2e0db03b5502ba
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8653287102527052293
-    second: hoto_0
+      213: -5043620519458952192
+    second: "\u5439\u304D\u51FA\u3057_0"
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -122,22 +122,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hoto_0
+      name: speech_bubble_0
       rect:
         serializedVersion: 2
-        x: 5969
-        y: 2630
-        width: 345
-        height: 227
+        x: 4112
+        y: 2107
+        width: 1636
+        height: 998
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 50a189dc5c6a61870800000000000000
-      internalID: 8653287102527052293
+      spriteID: 73033405e60f5ae418f13af2576b6cf5
+      internalID: -1914602987
       vertices: []
       indices: 
       edges: []
@@ -145,7 +145,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -153,7 +153,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      hoto_0: 8653287102527052293
+      speech_bubble_0: -1914602987
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

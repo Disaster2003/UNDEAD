@@ -143,169 +143,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tokei_0
+      name: UI_timeboard_0
       rect:
         serializedVersion: 2
-        x: 4942
-        y: 2552
-        width: 1579
-        height: 1122
+        x: 4941
+        y: 2856
+        width: 1574
+        height: 818
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ace7fac7cb1116600800000000000000
-      internalID: 459668138211901130
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tokei_1
-      rect:
-        serializedVersion: 2
-        x: 5424
-        y: 2752
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0ef6eb34a1d48af20800000000000000
-      internalID: 3434079491071045600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tokei_2
-      rect:
-        serializedVersion: 2
-        x: 5603
-        y: 2726
-        width: 18
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 366dd427242d85da0800000000000000
-      internalID: -5955779324370102685
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tokei_3
-      rect:
-        serializedVersion: 2
-        x: 5655
-        y: 2707
-        width: 54
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8ca931d7d20093700800000000000000
-      internalID: 520447427309968072
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tokei_4
-      rect:
-        serializedVersion: 2
-        x: 5845
-        y: 2785
-        width: 25
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 90fb4b8854ff03f70800000000000000
-      internalID: 9165105915810332425
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tokei_5
-      rect:
-        serializedVersion: 2
-        x: 5871
-        y: 2739
-        width: 25
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e619c50a8d433ceb0800000000000000
-      internalID: -4700855481036664466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tokei_6
-      rect:
-        serializedVersion: 2
-        x: 6038
-        y: 2674
-        width: 55
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9fe83f491f86918f0800000000000000
-      internalID: -569308491090260231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tokei_7
-      rect:
-        serializedVersion: 2
-        x: 6060
-        y: 2704
-        width: 56
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ac459697021aa2ce0800000000000000
-      internalID: -1429152770888739638
+      spriteID: bc04b342b7ed0074ebc9ac72f4738e4e
+      internalID: -1758212451
       vertices: []
       indices: 
       edges: []
@@ -313,7 +166,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -321,14 +174,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      tokei_0: 459668138211901130
-      tokei_1: 3434079491071045600
-      tokei_2: -5955779324370102685
-      tokei_3: 520447427309968072
-      tokei_4: 9165105915810332425
-      tokei_5: -4700855481036664466
-      tokei_6: -569308491090260231
-      tokei_7: -1429152770888739638
+      UI_timeboard_0: -1758212451
+      UI_timeboard_1: -1515568381
+      UI_timeboard_10: -406517873
+      UI_timeboard_11: -1959077638
+      UI_timeboard_12: -1738749490
+      UI_timeboard_13: 1067451840
+      UI_timeboard_14: 2117824838
+      UI_timeboard_15: 769621412
+      UI_timeboard_2: 1160043640
+      UI_timeboard_3: -1051736258
+      UI_timeboard_4: 2067655846
+      UI_timeboard_5: 715379023
+      UI_timeboard_6: -1953402090
+      UI_timeboard_7: -848705884
+      UI_timeboard_8: -1954760569
+      UI_timeboard_9: -322376789
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

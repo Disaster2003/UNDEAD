@@ -122,22 +122,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "\u30B9\u30B3\u30A2_0"
+      name: rankboard_0
       rect:
         serializedVersion: 2
-        x: 228
-        y: 264
-        width: 2988
-        height: 3781
+        x: 227
+        y: 260
+        width: 2993
+        height: 3787
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bc9132fcf519093e0800000000000000
-      internalID: -2048977989770470965
+      spriteID: 1eb1831d92e70cd4d8f1fc77d3b7d265
+      internalID: -375855720
       vertices: []
       indices: 
       edges: []
@@ -145,7 +145,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -153,7 +153,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "\u30B9\u30B3\u30A2_0": -2048977989770470965
+      rankboard_0: -375855720
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
