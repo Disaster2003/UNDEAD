@@ -11,7 +11,7 @@ public class SetRanking : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        txtRank.text = "\0";
+        txtRank.text = "";
 
         // ランキング
         InitializeRankArray();
@@ -75,11 +75,13 @@ public class SetRanking : MonoBehaviour
         {
             if (rank[idx] >= float.MaxValue)
             {
-                txtRank.text += "_.__s" + "\n";
+                txtRank.text += "_.__s";
+                txtRank.text += System.Environment.NewLine; //改行文字をつけている
             }
             else
             {
-                txtRank.text += rank[idx].ToString("f2") + "s" + "\n";
+                txtRank.text += rank[idx].ToString("f2") + "s";
+                txtRank.text += System.Environment.NewLine; //改行文字をつけている
             }
         }
     }

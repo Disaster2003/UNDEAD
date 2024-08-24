@@ -7,11 +7,13 @@ public class CreateSmoke : MonoBehaviour
     public bool isCreated = false;
     [SerializeField] Sprite[] smoke;
     public float changeTimer = 0;
+
     public float smokeAlpha = 0;
 
     // Start is called before the first frame update
     void Start()
     {
+        // ‰Œ‚ğ”ñ•\¦‚É‚·‚é
         GetComponent<SpriteRenderer>().sprite = smoke[0];
         GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 0);
     }
@@ -21,6 +23,7 @@ public class CreateSmoke : MonoBehaviour
     {
         if (isCreated)
         {
+            // ‰Œ‚ğ™X‚É“§–¾‚É‚·‚é
             if (GetComponent<SpriteRenderer>().sprite == smoke[1])
             {
                 if (smokeAlpha <= 0)
@@ -31,6 +34,7 @@ public class CreateSmoke : MonoBehaviour
                 smokeAlpha -= Time.deltaTime;
                 GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, smokeAlpha);
             }
+            // Ÿ‚Ì‰æ‘œ‚Ö
             else if (changeTimer <= 0)
             {
                 changeTimer = 0.5f;

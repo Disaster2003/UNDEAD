@@ -5,15 +5,16 @@ using UnityEngine.UI;
 
 public class Threat : MonoBehaviour
 {
+    private float delayTime = 3;
     public bool isThreatened = false;
+
     [SerializeField] GameObject checker;
     [SerializeField] Sprite[] threatZombie;
-
-    private float delayTime = 3;
 
     // Update is called once per frame
     void Update()
     {
+        // ˆê’èŽžŠÔŒo‰ß‚Å‰æ‘œ‚ð”ñ•\Ž¦
         if(GetComponent<Image>().enabled)
         {
             if (delayTime <= 0)
@@ -23,10 +24,11 @@ public class Threat : MonoBehaviour
             }
             delayTime -= Time.deltaTime;
         }
+        // «•Ê’Ê‚è‚Ì‰æ‘œ‚ð‘I‘ð
         else if (isThreatened)
         {
             isThreatened = false;
-            if (checker)
+            if (checker.GetComponent<HitCheck>().isMan)
                 GetComponent<Image>().sprite = threatZombie[0];
             else
                 GetComponent<Image>().sprite = threatZombie[1];

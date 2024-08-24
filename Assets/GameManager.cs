@@ -36,6 +36,7 @@ public class GameManager : MonoBehaviour
             GetComponent<AudioSource>().Play();
         }
 
+        // Œ‹‰Ê‰æ–Ê‚Ö
         if(SceneManager.GetActiveScene().buildIndex == (int)INDEX_SCENE.PLAY)
         {
             if (Spawn.cntZombie >= Spawn.zombieMax)

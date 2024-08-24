@@ -20,6 +20,7 @@ public class Zombie : MonoBehaviour
         GO_HOME = 2, // ‹A‘î
     }
     private ZOMBIE_STATE zombieState = ZOMBIE_STATE.WAIT;
+
     [SerializeField] Sprite[] zombie;
     public bool isMan = false;
 

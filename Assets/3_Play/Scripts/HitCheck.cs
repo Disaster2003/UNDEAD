@@ -8,11 +8,13 @@ public class HitCheck : MonoBehaviour
     public bool isArrived = false;
     public bool isSucceeded = false;
     private Zombie zombie;
+
     public bool isMan = false;
 
     // Update is called once per frame
     void Update()
     {
+        // 次のゾンビへ
         if(isSucceeded)
         {
             isSucceeded = false;
@@ -23,10 +25,7 @@ public class HitCheck : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // collisionが何もなかったら、何もしない
-        if (collision == null)
-            return;
-
+        // Zombieが到着
         isArrived = true;
         zombie = collision.gameObject.GetComponent<Zombie>();
 
@@ -35,6 +34,6 @@ public class HitCheck : MonoBehaviour
             recipeData[i] = zombie.recipeData[i];
 
         // 男性ゾンビであるかを確認する
-        isMan= zombie.isMan;
+        isMan = zombie.isMan;
     }
 }
