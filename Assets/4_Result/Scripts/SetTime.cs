@@ -9,6 +9,6 @@ public class SetTime : MonoBehaviour
     void Start()
     {
         // クリア時のタイムを設定する
-        GetComponent<Text>().text = PlayerPrefs.GetFloat("R" + 6).ToString("f2") + "s";
+        GetComponent<Text>().text = PlayerPrefs.GetFloat("R6").ToString("f2") + "s";
     }
 }

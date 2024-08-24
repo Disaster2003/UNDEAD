@@ -54,9 +54,8 @@ public class Zombie : MonoBehaviour
                 // 注意:inspectorでZombieのtagを「Zombie」に
                 if (GameObject.FindGameObjectsWithTag("Zombie").Length == 1)
                     zombieState = ZOMBIE_STATE.RECEIVE;
-
                 // 待機場所まで移動
-                if (transform.position.x > positionWait.x)
+                else if (transform.position.x > positionWait.x)
                     transform.position = new Vector2(transform.position.x - Time.deltaTime, -2);
                 break;
             case ZOMBIE_STATE.RECEIVE:
@@ -72,8 +71,13 @@ public class Zombie : MonoBehaviour
                 }
                 break;
             case ZOMBIE_STATE.GO_HOME:
+                // 吹き出し・必要な調合素材を表示
+                speechBubble.GetComponent<SpriteRenderer>().enabled = false;
+                for (int i = 0; i < recipeData.Length; i++)
+                    item[i].GetComponent<SpriteRenderer>().enabled = false;
+
                 // 帰宅
-                if (transform.position.x > positionReceive.x)
+                if (transform.position.x > positionGoHome.x)
                     transform.position = new Vector2(transform.position.x - Time.deltaTime, -2);
                 else
                     Destroy(gameObject);
@@ -100,5 +104,13 @@ public class Zombie : MonoBehaviour
         // 何も調合素材が指定されていなかったら、やり直し
         if (cntNone == 6)
             MakeRecipe();
+    }
+
+    /// <summary>
+    /// 帰宅を許す
+    /// </summary>
+    public void SetGoHome()
+    {
+        zombieState = ZOMBIE_STATE.GO_HOME;
     }
 }

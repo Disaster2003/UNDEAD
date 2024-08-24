@@ -45,7 +45,7 @@ public class SetRanking : MonoBehaviour
     /// </summary>
     private void Ranking()
     {
-        float ELAPSED = PlayerPrefs.GetFloat("R" + 6);
+        float ELAPSED = PlayerPrefs.GetFloat("R6");
         int newRank = 0; //‚Ü‚¸¡‰ñ‚Ìƒ^ƒCƒ€‚ð0ˆÊ‚Æ‰¼’è‚·‚é
         for (int idx = 5; idx > 0; idx--)
         { 

@@ -6,13 +6,17 @@ using UnityEngine.UI;
 public class Timer : MonoBehaviour
 {
     private float timer;
+    public static bool isStoppedTimer = false;
 
     // Update is called once per frame
     void Update()
     {
         // Ž¡‚µ‚½”‚ªãŒÀ‚È‚çA‰½‚à‚µ‚È‚¢
-        if (Spawn.cntZombie >= Spawn.zombieMax)
+        if (isStoppedTimer)
+        {
+            PlayerPrefs.SetFloat("R6", timer);
             return;
+        }
 
         // ŽžŠÔŒv‘ª
         timer += Time.deltaTime;

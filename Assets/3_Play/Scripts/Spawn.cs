@@ -26,18 +26,18 @@ public class Spawn : MonoBehaviour
             return;
 
         // スポーン
-        if (timer <= 0)
+        // 注意:inspectorでZombieのtagを「Zombie」に
+        if (GameObject.FindGameObjectsWithTag("Zombie").Length < 2)
         {
-            // 注意:inspectorでZombieのtagを「Zombie」に
-            if (GameObject.FindGameObjectsWithTag("Zombie").Length < 2)
+            if (timer <= 0)
             {
                 timer = 3;
                 Instantiate(zombie);
                 cntZombie++;
                 txtNumberPeople.text = cntZombie.ToString("d2");
             }
+            // 時間計測
+            timer -= Time.deltaTime;
         }
-        // 時間計測
-        timer -= Time.deltaTime;
     }
 }

@@ -35,6 +35,13 @@ public class GameManager : MonoBehaviour
             isPlayed = false;
             GetComponent<AudioSource>().Play();
         }
+
+        if(SceneManager.GetActiveScene().buildIndex == (int)INDEX_SCENE.PLAY)
+        {
+            if (Spawn.cntZombie >= Spawn.zombieMax)
+                if (!GameObject.FindGameObjectWithTag("Zombie"))
+                    OnClickNextScene();
+        }
     }
 
     /// <summary>
